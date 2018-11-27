@@ -22,23 +22,8 @@ public class Algo_40 {
         return number == 1;
     }
 
-    public static int getUgly(int index){
-        int count = 0;
-        int i = 1;
-        while(index != count) {
-            for (; ; i++) {
-                if (isUgly(i) == true) {
-                    count++;
-                }
-            }
-        }
-
-        return i;
-
-    }
-
     public static void main(String[] args) {
         int number = 6;
-        System.out.println(getUgly(number));
+        System.out.println(isUgly(number));
     }
 }
